@@ -7,3 +7,7 @@ addEventListener ('DOMContentLoaded', () => {
         })
     }
 })
+
+$('.menu_items>li>a').on('click', function(){
+    $('.menu_items').collapse('hide');
+});
