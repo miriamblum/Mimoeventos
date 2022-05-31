@@ -20,6 +20,7 @@ body {
     border-bottom: 1px solid #fff;
     box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
     position:fixed;
+    z-index: 999;
 }
 
 .logo {
@@ -241,6 +242,8 @@ ul.hide{
     font-size: 100px;
     color: #fff;
 }
+
+/* Boton whatsapp */
 
 .float{
 	position:fixed;
@@ -488,10 +491,12 @@ footer{
     margin: auto;
     padding-bottom: 50px;
     border-bottom: 1px solid #ccc;
-    }
+    text-decoration: none;
+}
 
 .content-foo{
     text-align: center;
+    text-decoration: none;
 }
 
 .content-foo h4{
@@ -499,10 +504,12 @@ footer{
     border-bottom: 3px solid #4d0686;
     padding-bottom: 30px;
     margin-bottom: 10px;
+    text-decoration: none;
 }
 
 .content-foo p{
     color: #ccc;
+    text-decoration: none;
 }
 
 .titulo-final{
@@ -512,8 +519,36 @@ footer{
     color: #ccc;
 }
 
+a:link{
+    text-decoration:none
+}
+
+.redes{
+   display: flex;
+   justify-content: space-around;
+}
+
+.redes a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+}
+
+  a:visited{
+    text-decoration:none
+}
+
 iframe {
     width: 100%;
+}
+
+iframe {
+    width: 500;
+    height: 200;
+    align-items: center;
 }
 
 @media screen and (max-width:952px){
@@ -600,7 +635,7 @@ iframe {
     .menu_items {
         position: fixed;
         width: 100vw;
-        height: calc(80% - 65px);
+        height: calc(60% - 65px);
         background: #ccc;
         top: -100vh;
         text-align: center;
