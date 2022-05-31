@@ -635,7 +635,7 @@ iframe {
     .menu_items {
         position: fixed;
         width: 100vw;
-        height: calc(60% - 65px);
+        height: calc(80% - 65px);
         background: #ccc;
         top: -100vh;
         text-align: center;
